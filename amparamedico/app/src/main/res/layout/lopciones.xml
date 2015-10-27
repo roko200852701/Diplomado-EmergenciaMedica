@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5094ff"
+    android:padding="30dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bEmergencia"
+            android:src="@mipmap/ic_emergenciaparamedico"
+            android:layout_weight="1"
+            android:background="#ff5094ff"
+            android:contentDescription="Emergencia en Proceso"
+            android:focusable="true"
+            android:cropToPadding="true"
+            android:onClick="emergencia" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bAtencionEmergencia"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_atencionemergencia"
+            android:background="#ff5094ff"
+            android:onClick="emergenciaProceso"
+            android:contentDescription="Atender Emergencia en Proceso" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5094ff"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registroPacienteSSU"
+        android:id="@+id/textView"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_paciente"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/matricula"
+            android:id="@+id/textView1"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/eMatricula"
+            android:background="@color/bright_foreground_material_dark"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ci"
+            android:id="@+id/textView2"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/eCi"
+            android:background="@color/bright_foreground_material_dark"
+            android:paddingBottom="15dp"
+            android:password="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bRegistrar"
+            android:src="@mipmap/ic_registrar"
+            android:background="#ff5094ff"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:onClick="registrar" />
+
+    </LinearLayout>
+
+</LinearLayout>

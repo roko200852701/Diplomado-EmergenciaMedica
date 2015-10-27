@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5094ff"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergenciaenproceso"
+        android:id="@+id/textView"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:paddingLeft="35dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_paciente"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/matricula"
+            android:id="@+id/textView1"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:textSize="20dp"
+            android:layout_weight="0.08"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:layout_weight="0.94"
+            android:paddingTop="25dp"
+            android:textSize="20sp"
+            android:text="1188448"
+            android:id="@+id/tMatriculaPaciente" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/nombre"
+            android:id="@+id/textView2"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:textSize="20sp"
+            android:layout_weight="2.14"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:textStyle="bold"
+            android:layout_weight="0.94"
+            android:paddingTop="25dp"
+            android:textSize="20sp"
+            android:text="Edwin Molina Cardenas"
+            android:id="@+id/tNombrePaciente" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bEmergencia"
+            android:src="@mipmap/ic_confirmar"
+            android:layout_weight="1"
+            android:background="#ff5094ff"
+            android:contentDescription="Atender Emergencia"
+            android:focusable="true"
+            android:cropToPadding="true"
+            android:onClick="atenderEmergencia"
+            android:nestedScrollingEnabled="false" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dsf"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_ubicar"
+            android:contentDescription="Ubicar"
+            android:background="#ff5094ff"
+            android:onClick="mostrarRuta" />
+        </LinearLayout>
+
+</LinearLayout>

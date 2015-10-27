@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AMMedico</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registrar">Registro para el medico</string>
+    <string name="registroPacienteSSU">REGISTRO PARA EL MEDICO DEL S.S.U.</string>
+    <string name="matricula">MATRICULA: </string>
+    <string name="ci">CEDULA IDENTIDAD: </string>
+    <string name="title_activity_opciones">Opciones</string>
+    <string name="appPaciente">Aplicacion Médico S.S.U.</string>
+    <string name="llenarTodosCampos">Llene todos los campos por favor..</string>
+    <string name="pacienteRegistrado">Medico Registrado Correctamente!!.</string>
+    <string name="pacienteYaRegistrado">Los datos que ha ingreseado pertenecen a otro medico registrado verifique por favor...</string>
+    <string name="datosInvalidos">Los datos que ud. ha ingresado no corresponden a ningun medico afilidado verifique por favor...</string>
+    <string name="wifiNecesario">La aplicacion medico del S.S.U. utiliza conexion de internet por favor habilite el wifi o su paquete de datos.</string>
+    <string name="noExisteConServidor">Lo sentimos pero en este momento no tenemos acceso al servidor Del S.S.U., intentelo mas tarde o comuniquese con el administrador.</string>
+    <string name="verificarConexion">No se puede conectar con el servidor en estos momentos, por favor verifique su conexion a internet o comuniquese con el administrador del sistema.</string>
+    <string name="paramedicoNoDisponible">Lo sentimos mucho pero en estos momentos no podemos atender su emergencia ya que no hay ninguna ambulancia disponible.</string>
+    <string name="paramedicoEnCamino">En estos momentos se dirige a la brevedad posible la ambulancia.</string>
+    <string name="emergenciaSolicitada">Emergencia solicitada espere unos segundos por favor.</string>
+    <string name="gpsNecesario">Lo sentimos pero es necesario que el gps este activado. Por favor active el gps del celular.</string>
+    <string name="solicitudEmergenciaProceso">Ud. ya tiene una solicitud de emergencia en proceso. Por favor aguarde la ambulancia esta en camino.</string>
+    <string name="intenteloNuevo">Intentelo de nuevo por favor.</string>
+    <string name="yaTieneEmergenciaProceso">Ud. ya realizo una solicitud de emergencia aguarde por favor, el paramedico esta en camino.</string>
+    <string name="noGPS">No se encontro la senal gps.</string>
+    <string name="sBuscarSenal">Buscando señal GPS</string>
+    <string name="sBuscando">Buscando...</string>
+
+
+    Paciente Registrado Correctamente!!
+
+
+
+
+
+</resources>
